@@ -271,4 +271,12 @@ footer a {
 }
 
 @media print {
+  header,
+  iframe,
+  #section,
+  form,
+  aside,
+  footer {
+    display: none;
+  }
 }
